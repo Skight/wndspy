@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE>帮助主题</TITLE>
+<META HTTP-EQUIV=CONTENT-TYPE CONTENT="TEXT/HTML;CHARSET=GB2312">
+<STYLE>@IMPORT URL(WSHELP.CSS);</STYLE>
+</HEAD>
+<BODY ID="SIMPLE">
+<DIV ID="PAGETOP">
+<DIV ID=PROJECTNAMEBANNER>
+<TABLE CLASS=PROJECTNAMETABLE CELLSPACING=0>
+<TR><TD>窗体侦探 (Window Spy) 帮助主题</TD></TR>
+</TABLE>
+</DIV>
+</DIV>
+<DIV ID="PAGEBODY" VALIGN="BOTTOM">
+<P><B>窗体侦探 (Window Spy) </B>是一个类似微软Spy++的小工具，可以辅助 Windows 程序员获取和窗体有关的信息。</P><P>该工具目前涉及到的功能个个都比Spy++更好些，所以暂时就不写冗长的帮助文档了，几个地方简单说明一下。
+</P>
+<P><B>1.</B> 关于 [文件] 菜单下 "保存窗体内部文本" 功能。
+</P>
+<P>该功能需要根据窗体类型来判断如何读取文本，目前仅支持从Windows标准控件中提取文本。
+</P>
+<P>对于未被识别的窗体类，如果你知道它源自哪个标准控件类，可以在窗体侦探主界面 [样式] 标签页 [所属类型] 下拉列表中选择已知的标准类型，再去保存。
+</P>
+<P>
+例如，要从一个 .Net 托管控件 WindowsForms10.SysListView32.app.xxxx 中提取文本，你可以先选择 List-View 类型，然后执行保存。
+</P>
+<P><B>2.</B> 关于 [控制] 标签页下的 SendMessage 功能。说明一下如何书写结构体参数。
+</P>
+<P>例如，我们要将 Window XP 桌面 [显示属性] 对话框中的第3个标签的文本 "屏幕保护程序" 更改为 "Hello" 。
+</P>
+<PRE>
+先说我们熟悉的代码：
+
+SendMessage(hwndTab, TCM_SETITEM, (WPARAM)2, (LPARAM)&itemStruct);
+
+typedef struct tagTCITEM
+{
+    UINT mask;
+    DWORD dwState;
+    DWORD dwStateMask;
+    LPTSTR pszText;
+    int cchTextMax;
+    int iImage;
+    LPARAM lParam;
+
+} TCITEM, *LPTCITEM;
+
+在窗体侦探中，我们可以这样书写参数：
+
+WPARAM 输入：2
+LPARAM 输入：{1, 0, 0, "Hello", 32, -1, 0}
+</PRE>
+<P>以上 LPARAM 演示书写一个 TCITEM 结构，简单吧，其实和 C++ 初始化一个结构体的书写一样。
+</P>
+<P>
+另外，你可以根据不同消息的特点，进行不同的消息设置( 对于输出[out]型参数，必须显式的设置)。
+</P>
+<P>你可以通过窗体侦探 [文件] 菜单导出/导入消息配置。
+</P>
+<P>
+<B>3.</B> 窗体侦探内置的几个小工具都没有占用任务栏，主要考虑到多实例运行的情况下会有一大堆的图标。你可以通过相应的快捷加速键进行打开/切换。
+</P>
+
+<DIV STYLE="COLOR:#336699;MARGIN-TOP:20PT;MARGIN-BOTTOM:20PT;BORDER-TOP:1PX SOLID #336699">版权&copy; 黑闪工作室 (Hesung Studio) 2003-2008
+</DIV>
+</BODY>
+</HTML>

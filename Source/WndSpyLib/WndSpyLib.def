@@ -1,0 +1,16 @@
+;;--------------------------------------
+;; WndSpy.dll module definition
+;; DESCRIPTION 'Window Spy RT Module'
+;;--------------------------------------
+
+LIBRARY WNDSPY.DLL
+
+EXPORTS
+
+wsGetWndInfo @1
+wsHookGetWndInfo @2
+wsHookGetWndText @3
+wsInitData @4
+wsReadWndInfo @5
+wsSetWndHook @6
+wsUnSetWndHook @7

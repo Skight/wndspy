@@ -1,0 +1,133 @@
+# Microsoft Developer Studio Generated Dependency File, included by WndSpyLib.mak
+
+.\WndSpyLib.cpp : \
+	"..\Contrib.h"\
+	"..\contrib\_contrib.h"\
+	"..\contrib\dib.h"\
+	"..\contrib\icons.h"\
+	"..\contrib\saveicon.h"\
+	"..\HsCommon.h"\
+	"..\hscommon\_hscommon.h"\
+	"..\hscommon\drawpaintex.h"\
+	"..\hscommon\fileop.h"\
+	"..\hscommon\fileopex.h"\
+	"..\hscommon\hslibdef.h"\
+	"..\hscommon\hsmath.h"\
+	"..\hscommon\modresmem.h"\
+	"..\hscommon\processfunc.h"\
+	"..\hscommon\rectposrgn.h"\
+	"..\HsCommon\RectPosRgnEx.h"\
+	"..\hscommon\shortcut.h"\
+	"..\hscommon\stringfunc.h"\
+	"..\hscommon\stringfuncex.h"\
+	"..\hscommon\subwndcls.h"\
+	"..\hscommon\taskbarfunc.h"\
+	"..\hscommon\uxthemefuncs.h"\
+	"..\hscommon\winfuncs.h"\
+	"..\hscommon\wnddlgctrl.h"\
+	"..\SpyFunc.h"\
+	"..\WndSpy.h"\
+	"..\WndSpyGui\DlgAbout.h"\
+	"..\WndSpyGui\DlgAppSettings.h"\
+	"..\WndSpyGui\DlgColorSpy.h"\
+	"..\WndSpyGui\DlgEffectOption.h"\
+	"..\WndSpyGui\DlgIconExtractor.h"\
+	"..\WndSpyGui\DlgPswSniffer.h"\
+	"..\WndSpyGui\DlgSaveIconOption.h"\
+	"..\WndSpyGui\DlgSndMsg.h"\
+	"..\WndSpyGui\DlgWndEnumer.h"\
+	"..\WndSpyGui\DlgWndModifier.h"\
+	"..\WndSpyGui\SpyMainDlg.h"\
+	"..\WndSpyGui\SpyMainDlgTabs.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabClass.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabFinder.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabGeneral.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabMani.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabProcess.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabStyles.h"\
+	"..\WndSpyGui\SpyMainToolTips.h"\
+	"..\WndSpyGui\SpyMsgWnd.h"\
+	"..\WndSpyGui\SpyToolContainer.h"\
+	"..\WndSpyGui\WndSpyGui.h"\
+	".\WndSpyLib.h"\
+	".\WndSpyLibOpt.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\basetsd.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\guiddef.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\propidl.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\psapi.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\reason.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\shldisp.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\shobjidl.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\shtypes.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\specstrings.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\stralign.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\tvout.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\uxtheme.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\winefs.h"\
+	
+
+.\WndSpyLibOpt.cpp : \
+	"..\Contrib.h"\
+	"..\contrib\_contrib.h"\
+	"..\contrib\dib.h"\
+	"..\contrib\icons.h"\
+	"..\contrib\saveicon.h"\
+	"..\HsCommon.h"\
+	"..\hscommon\_hscommon.h"\
+	"..\hscommon\drawpaintex.h"\
+	"..\hscommon\fileop.h"\
+	"..\hscommon\fileopex.h"\
+	"..\hscommon\hslibdef.h"\
+	"..\hscommon\hsmath.h"\
+	"..\hscommon\modresmem.h"\
+	"..\hscommon\processfunc.h"\
+	"..\hscommon\rectposrgn.h"\
+	"..\HsCommon\RectPosRgnEx.h"\
+	"..\hscommon\shortcut.h"\
+	"..\hscommon\stringfunc.h"\
+	"..\hscommon\stringfuncex.h"\
+	"..\hscommon\subwndcls.h"\
+	"..\hscommon\taskbarfunc.h"\
+	"..\hscommon\uxthemefuncs.h"\
+	"..\hscommon\winfuncs.h"\
+	"..\hscommon\wnddlgctrl.h"\
+	"..\SpyFunc.h"\
+	"..\WndSpy.h"\
+	"..\WndSpyGui\DlgAbout.h"\
+	"..\WndSpyGui\DlgAppSettings.h"\
+	"..\WndSpyGui\DlgColorSpy.h"\
+	"..\WndSpyGui\DlgEffectOption.h"\
+	"..\WndSpyGui\DlgIconExtractor.h"\
+	"..\WndSpyGui\DlgPswSniffer.h"\
+	"..\WndSpyGui\DlgSaveIconOption.h"\
+	"..\WndSpyGui\DlgSndMsg.h"\
+	"..\WndSpyGui\DlgWndEnumer.h"\
+	"..\WndSpyGui\DlgWndModifier.h"\
+	"..\WndSpyGui\SpyMainDlg.h"\
+	"..\WndSpyGui\SpyMainDlgTabs.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabClass.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabFinder.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabGeneral.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabMani.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabProcess.h"\
+	"..\WndSpyGui\SpyMainDlgTabs\DlgTabStyles.h"\
+	"..\WndSpyGui\SpyMainToolTips.h"\
+	"..\WndSpyGui\SpyMsgWnd.h"\
+	"..\WndSpyGui\SpyToolContainer.h"\
+	"..\WndSpyGui\WndSpyGui.h"\
+	".\WndSpyLib.h"\
+	".\WndSpyLibOpt.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\basetsd.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\guiddef.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\propidl.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\psapi.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\reason.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\shldisp.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\shobjidl.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\shtypes.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\specstrings.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\stralign.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\tvout.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\uxtheme.h"\
+	"i:\program files\microsoft platform sdk for windows server 2003 r2\include\winefs.h"\
+	
